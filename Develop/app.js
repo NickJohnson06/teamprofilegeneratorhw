@@ -34,13 +34,6 @@ const render = require("./lib/htmlRenderer");
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
 
-const inquirer = require("inquirer");
-const fs = require("fs");
-const Employee = require("./lib/employee")
-const Engineer = require("./lib/engineer")
-const Manager = require("./lib/manager")
-const Intern = require("./lib/intern")
-
 let finalTeamArray = [];
 
 function startingPrompt() {
